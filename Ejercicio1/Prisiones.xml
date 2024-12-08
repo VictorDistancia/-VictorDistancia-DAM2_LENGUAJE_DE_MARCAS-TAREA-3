@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Prisiones SYSTEM "prisiones.dtd">
+<Prisiones>
+    <Prision>
+        <Codigo>001</Codigo>
+        <Nombre>Centro Penitenciario Madrid I</Nombre>
+        <Director>
+            <NombreCompleto>Juan Pérez Gómez</NombreCompleto>
+            <FechaNombramiento>2020-05-15</FechaNombramiento>
+        </Director>
+        <Direccion>Calle Falsa 123, Madrid, España</Direccion>
+        <FechaInauguracion>1995-03-25</FechaInauguracion>
+        <CapacidadMaxima>500</CapacidadMaxima>
+        <Funcionarios>
+            <Funcionario>
+                <Puesto>Carcelero</Puesto>
+                <FechaIncorporacion>2018-07-01</FechaIncorporacion>
+                <NombreCompleto>Pedro Martínez López</NombreCompleto>
+            </Funcionario>
+            <Funcionario>
+                <Puesto>Administrativo</Puesto>
+                <FechaIncorporacion>2021-02-10</FechaIncorporacion>
+                <NombreCompleto>Ana García Fernández</NombreCompleto>
+            </Funcionario>
+        </Funcionarios>
+        <Reclusos>
+            <Recluso>
+                <Numero>1001</Numero>
+                <NombreCompleto>Carlos Jiménez Ruiz</NombreCompleto>
+                <NumeroCelda>12</NumeroCelda>
+                <FechaIngreso>2022-06-01</FechaIngreso>
+                <DuracionCondena>5</DuracionCondena>
+                <Peligrosidad>Peligroso</Peligrosidad>
+            </Recluso>
+            <Recluso>
+                <Numero>1002</Numero>
+                <NombreCompleto>Raúl Torres Sánchez</NombreCompleto>
+                <NumeroCelda>15</NumeroCelda>
+                <FechaIngreso>2023-01-12</FechaIngreso>
+                <DuracionCondena>2</DuracionCondena>
+                <Peligrosidad>No peligroso</Peligrosidad>
+            </Recluso>
+        </Reclusos>
+        <Celdas>
+            <Celda>
+                <NumeroCelda>12</NumeroCelda>
+                <Pabellon>1</Pabellon>
+                <Plazas>2</Plazas>
+            </Celda>
+            <Celda>
+                <NumeroCelda>15</NumeroCelda>
+                <Pabellon>2</Pabellon>
+                <Plazas>1</Plazas>
+            </Celda>
+        </Celdas>
+    </Prision>
+    <Prision>
+        <Codigo>002</Codigo>
+        <Nombre>Centro Penitenciario Barcelona II</Nombre>
+        <Director>
+            <NombreCompleto>María López Torres</NombreCompleto>
+            <FechaNombramiento>2019-09-10</FechaNombramiento>
+        </Director>
+        <Direccion>Avenida Principal 456, Barcelona, España</Direccion>
+        <FechaInauguracion>2000-11-12</FechaInauguracion>
+        <CapacidadMaxima>600</CapacidadMaxima>
+        <Funcionarios>
+            <Funcionario>
+                <Puesto>Personal de servicios</Puesto>
+                <FechaIncorporacion>2017-03-20</FechaIncorporacion>
+                <NombreCompleto>Lucía Sánchez Romero</NombreCompleto>
+            </Funcionario>
+            <Funcionario>
+                <Puesto>Carcelero</Puesto>
+                <FechaIncorporacion>2020-08-05</FechaIncorporacion>
+                <NombreCompleto>José González Márquez</NombreCompleto>
+            </Funcionario>
+        </Funcionarios>
+        <Reclusos>
+            <Recluso>
+                <Numero>2001</Numero>
+                <NombreCompleto>Andrés Fernández Díaz</NombreCompleto>
+                <NumeroCelda>30</NumeroCelda>
+                <FechaIngreso>2021-04-15</FechaIngreso>
+                <DuracionCondena>8</DuracionCondena>
+                <Peligrosidad>Muy peligroso</Peligrosidad>
+            </Recluso>
+            <Recluso>
+                <Numero>2002</Numero>
+                <NombreCompleto>Isabel Martínez López</NombreCompleto>
+                <NumeroCelda>32</NumeroCelda>
+                <FechaIngreso>2023-03-20</FechaIngreso>
+                <DuracionCondena>3</DuracionCondena>
+                <Peligrosidad>Posiblemente peligroso</Peligrosidad>
+            </Recluso>
+        </Reclusos>
+        <Celdas>
+            <Celda>
+                <NumeroCelda>30</NumeroCelda>
+                <Pabellon>3</Pabellon>
+                <Plazas>3</Plazas>
+            </Celda>
+            <Celda>
+                <NumeroCelda>32</NumeroCelda>
+                <Pabellon>3</Pabellon>
+                <Plazas>2</Plazas>
+            </Celda>
+        </Celdas>
+    </Prision>
+</Prisiones>
